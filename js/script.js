@@ -61,11 +61,3 @@ if (window.location.pathname.endsWith('expense-report.html')) {
     }
 }
 
-// Clear all data (optional: add this feature to your UI if required)
-function clearAllData() {
-    localStorage.removeItem('expenses');
-    alert('All data has been cleared.');
-    if (window.location.pathname.endsWith('expense-report.html')) {
-        location.reload();
-    }
-}
